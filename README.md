@@ -14,4 +14,4 @@ Running `docker-compose up` will use the images found in the [`.env`](.env) file
 
 Running `docker-compose -f docker-compose-dev.yaml up` will build the image using the [`Dockerfile`](Dockerfile) which really just copies the [`r_postgres.R`](r_postgres.R) script into the image for you. The volume is mounted to `/home/rstudio/persistent/`
 
-`r_postgres.R`](r_postgres.R) provides a very brief overview of using [`DBI`](https://dbi.r-dbi.org)
+[`r_postgres.R`](r_postgres.R) provides a very brief overview of using [`DBI`](https://dbi.r-dbi.org)
